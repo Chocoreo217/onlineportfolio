@@ -1,0 +1,73 @@
+/*Start contact*/
+.contact{
+    background: linear-gradient(to bottom, #1a1036, #5d3abf);
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+form label{
+    font-size: 1.5rem;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+}
+
+input[type="submit"]{
+    width: initial;
+    background-color: #fd57bf;
+    color: #eee;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+
+input[type="submit"]:hover{
+    color: #221e3f;
+    background-color: #31c29e;
+}
+
+.form-group{
+    margin-bottom:1.5em;
+    transition:all .3s;
+}
+
+.form-control{
+    box-shadow: none;
+    border-radius: 3px;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    font-size:1.25em;
+    transition:all 1s;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    outline:none;
+}
+
+.form-group:focus-within{
+    transform:scale(1.1,1.1);
+}
+
+.form-control:invalid:focus{
+    border-color:red;
+    border-width: 5px;
+}
+
+.form-control:valid:focus{
+    border-color:green;
+    border-width: 5px;
+}
+
+/*End contact*/

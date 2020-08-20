@@ -1,0 +1,165 @@
+/*Start portfolio*/
+.portfolio{
+    background: linear-gradient(to bottom, #1a1036, #5d3abf);
+}
+/*.portfolio-item{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    margin-bottom: 5rem;*/
+/*}*/
+
+/*.portfolio-item:last-child{*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*.portfolio-img{*/
+/*    flex: 1;*/
+/*}*/
+
+/*.portfolio-description{*/
+/*    flex: 2;*/
+/*}*/
+
+/*.portfolio-description h1{*/
+/*    font-size: 3rem;*/
+/*    font-weight: 300;*/
+/*    margin: 1rem 0;*/
+/*}*/
+
+/*.portfolio-description h6{*/
+/*    font-size: 1.5rem;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 300;*/
+/*    opacity: 0.3;*/
+/*}*/
+
+/*.portfolio-description .cta{*/
+/*    display: inline-block;*/
+/*    margin-top: 2.5rem;*/
+/*    font-size: 1.5rem;*/
+/*    text-transform: uppercase;*/
+/*    color: #3883ff;*/
+/*    transition: color 650ms;*/
+/*}*/
+
+/*.portfolio-description .cta:hover{*/
+/*    color: #2f67cd;*/
+/*}*/
+/*End portfolio*/
+
+.portfolio img {
+    width: 100%;
+}
+
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.portfolio-img {
+    width: 50rem;
+    flex: 1;
+}
+
+.portfolio-description {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.portfolio-description h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-family: "Alata", sans-serif;
+    color: rgb(153, 133, 173);
+}
+
+.portfolio-description p,
+.portfolio-long p {
+    text-align: left;
+}
+
+.portfolio-long {
+    display: none;
+    order: 3;
+    background-color: #110829;
+    padding: 2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.arrowDown {
+    display: block;
+}
+
+.arrowUp {
+    display: none;
+}
+
+.portfolio-description .cta {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #eee;
+    transition: all 150ms;
+}
+
+.portfolio-description .cta:hover {
+    transform: scale(1.2);
+    font-weight: 500;
+}
+
+.portfolio-item:last-child {
+    margin-bottom: 4rem;
+}
+
+.portfolio-long a{
+    color: rgb(211, 171, 230);
+    font-weight: 600;
+}
+
+.portfolio-long .subheading{
+    margin-top: 1rem;
+    color: #70b1a1;
+    display: block;
+    text-align:left;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.portfolio-long ul{
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.portfolio-long li{
+    padding: 1rem;
+}
+
+.skillicons-left{
+    margin-top: 1rem;
+    font-size: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.skillicon-box{
+    margin: 1rem;
+    padding: 1rem;
+}
+

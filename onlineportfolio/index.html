@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elvira Erdei portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <!-- dev icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <!-- particles backdrop script -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="particles-js">
+        <header>
+            <div class="menu-toggle">
+                <div class="bar half start"></div>
+                <div class="bar"></div>
+                <div class="bar half end"></div>
+            </div>
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="landing-text">
+                <h1>Elvira Erdei</h1>
+                <!-- animated h6 -->
+                <h6>
+                    <span class="txt-type" data-wait=1000ms data-words='["Computer Scientist", "Astronomer", "Physicist"]'></span>
+                </h6>
+            </div>
+        </header>
+
+        <section class="about" id="about">
+            <div class="container">
+
+                <div class="card">
+                    <div class="imgBox">
+                        <img src="images/profile.jpg" alt="">
+                    </div>
+                    <div class="imgContent">
+                        <h2>
+                          "Hard work beats talent when talent doesn't work hard."
+                        </h2>
+                    </div>
+                </div>
+
+<!--                <div class="profile-img" data-aos="fade-right" data-aos-delay="300">-->
+<!--                    <img src="images/profile.jpg" alt="">-->
+<!--                </div>-->
+                <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Myself</h6>
+                    </div>
+                    <p>
+                        I started my career in IT as a software engineer during my studies of Computer Science at University of Szeged.
+                        After completing my bachelor's thesis, I became a junior software developer and tester at METRIX Hungary Kft. doing frontend development.<br><br>
+                        I am looking for new opportunities which include modern, progressive technologies in a collaborative working environment.
+                        Learning new things and trying out new stuff are part of my motivation. New roles are of interest if I can accompany the software end to end -
+                        from planning, implementation, deployment towards monitoring. <br><br>The constant feedback of my work and the opportunity of continuous learning
+                        and experimentation define a proper working environment for me. Job offers outside of Szeged are not relevant to me.
+                    </p>
+                    <a class="resume-link" href="images/ElviraErdeiResume.pdf" download>
+                        <button class="button">
+                            <span><i class="fa fa-download"></i> Download Resume </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="custom-shape-divider-top-1596795837">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Skills</h1>
+                    <h6>What I can do for you</h6>
+                </div>
+                <div class="my-skills">
+                    <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                        <div class="icon-container">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h1>Web Design</h1>
+                        <p>
+                            Aesthetically pleasing website is more than just pixelated information. Every project deserves
+                            going for the extra mile finding the exact right color scheme, layout and font.
+                        </p>
+                    </div>
+                    <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                        <div class="icon-container">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h1>Web Development</h1>
+                        <p>
+                            There is a growing demand for interactive web and apps design for a user-friendly experience.
+                            I like to use Angular framework to develop user-friendly apps to this demand. Lately I started to be interested in Vue,
+                            utilising Vuetify library to create polished UIs.
+                        </p>
+                    </div>
+                    <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                        <div class="icon-container">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h1>Backend development</h1>
+                        <p>
+                            Although I tend to stick to front-end development I am no stranger to working on the back-end with Java.
+                            I have just a little experience with back-end development but I feel as though I am a quick learner
+                            and can pick up many skills if necessary.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="custom-shape-divider-top-1596799792">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Portfolio</h1>
+                    <h6>What I've done</h6>
+                </div>
+                <!-- port1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                        <img src="images/portitem1.jpeg" alt="">
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                        <h1>Personal resume site</h1>
+                        <a href="" target="_blank" class="cta">Visit site <i
+                                class="far fa-eye"></i></a> <br>
+                        <a href="https://github.com/Chocoreo217/onlineportfolio" target="_blank" class="cta">View Github <i
+                                class="fab fa-github"></i></a> <br>
+                        <a href="javascript:void(0)" class="cta expandDetails">
+                            More info<br>
+                            <div class="arrowDown">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="arrowUp">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-long">
+                        <div class="subheading">GOAL:</div>
+                        <p>
+                            Make a fluid single-page personal portfolio site showcasing my skills as a front end web developer.
+                        </p>
+                        <div class="subheading">LEARNING POINTS:</div>
+                        <p>
+                            <ul>
+                                <li>The site you're on right now has been an amazing opportunity to practice flexbox.
+                                    Making a site from scratch with vanilla CSS/HTML, not using any frameworks doing the
+                                    alignments and responsiveness thinking for me.</li>
+                                <li>Pros and cons of libraries. This site implements AOS animations,
+                                    but one whole day of coding was wasted trying to debug a very
+                                    weird margin in mobile view which was explained nowhere in my
+                                    code. By the end of the day I found out that AOS library's
+                                    classes fade-right/fade-left were the culprits, creating an odd
+                                    margin in mobile viewports that no inspector could identify the
+                                    cause of. I learned a lot here through process of elimination,
+                                    squinting at the box model and googling, which I am sure helps
+                                    me debug future weird visual errors faster. </li>
+                                <li>Form functionality on static Github pages. Since I am not yet
+                                    all that proficient in backend business and Github does not
+                                    support PHP, I had to get creative with the contact form you can
+                                    see below </li>
+                                <li>Using a animations as a background. I found <a
+                                        href="http://https://vincentgarreau.com/particles.js/"
+                                        target="_blank">particles.js library</a> actually a long
+                                    time ago and saved it for a special project. It ended up being
+                                    on my own site right here! Implementing this library was good
+                                    practice of learning abot z-index and making sure the animation
+                                    fills the entire background without interfering with other page
+                                    elements.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- /port1 -->
+                <!-- port2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                        <h1>Angular online CV</h1>
+                        <a href="https://angularonlinecv.firebaseapp.com" target="_blank" class="cta">Visit site <i
+                                class="far fa-eye"></i></a> <br>
+                        <a href="https://github.com/Chocoreo217/angularcv" target="_blank" class="cta">View Github <i
+                                class="fab fa-github"></i></a> <br>
+                        <a href="javascript:void(0)" class="cta expandDetails">
+                            More info<br>
+                            <div class="arrowDown">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="arrowUp">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                        <img src="images/portitem2.jpeg" alt="">
+                    </div>
+                    <div class="portfolio-long">
+                        <div class="subheading">GOAL:</div>
+                        <p>
+                            This website was created as a GitHub project for the purpose of having a basic online-CV.
+                            I wanted a really clean, simple and not too fancy design with useful information about me.
+                        </p>
+                        <div class="subheading">TECHNOLOGIES USED:</div>
+
+                        <div class="skillicons-left">
+                            <div class="skillicon-box">
+                                <i class="devicon-angularjs-plain colored"></i>
+                                <span class="skillicon-title">
+                                    <p>Angular</p>
+                                </span>
+                            </div>
+                            <div class="skillicon-box">
+                                <i class="devicon-css3-plain-wordmark colored"></i>
+                                <span class="skillicon-title">
+                                    <p>CSS3</p>
+                                </span>
+                            </div>
+                            <div class="skillicon-box">
+                                <i class="devicon-typescript-plain colored"></i>
+                                <span class="skillicon-title">
+                                    <p>Typescript</p>
+                                </span>
+                            </div>
+                            <div class="skillicon-box">
+                                <i class="devicon-webstorm-plain colored"></i>
+                                <span class="skillicon-title">
+                                    <p>Webstorm</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /port2 -->
+                <!-- port3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                        <img src="images/portitem3.png" alt="">
+                    </div>
+                    <div class="portfolio-description has-margin-right" data-aos="fade-left" data-aos-delay="1800">
+                        <h1>Memory Game Android App</h1>
+                        <a href="https://github.com/Chocoreo217/memorygame" target="_blank" class="cta">View Github <i
+                                class="fab fa-github"></i></a> <br>
+                        <a href="javascript:void(0)" class="cta expandDetails">
+                            More info<br>
+                            <div class="arrowDown">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="arrowUp">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-long">
+                        <div class="subheading">GOAL:</div>
+                        <p>
+                            A simple memory game with cute kitties.
+                            This is my first Android App in Java with Android Studio.
+                        </p>
+                        <div class="subheading">LEARNING POINTS:</div>
+                        <p>
+                        <ul>
+                            <li>Java and XML are the two main programming languages used in Android App development.
+                                Knowledge and mastery over these programming languages are prerequisites to developing an Android app.
+                                Proper understanding of Java and XML helped me a lot to build/develop this app.</li>
+                            <li>It was very important to familiarize myself with the build automation tools as well as
+                                the integrated development environment before I start developing my app. I used Android app studio IDE
+                                and it helped me learn the basics and many other things that helped improve my code.</li>
+                            <li>Application components are the essential building blocks of Android app development.
+                                Each of the components is a different point by which the system can enter the app.
+                                Although each one of them exists as its own entity and plays a specific role, there are
+                                some which depend on each other, and not all of them are actual entry points.
+                                There are different types of app components each serving a distinct purpose with a
+                                distinct life cycle which defines how it is created and destroyed.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- /port3 -->
+                <!-- port4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="2100">
+                        <h1>Softpaws-dogshelter</h1>
+                        <a href="https://github.com/Chocoreo217/softpaws-dogshelter" target="_blank" class="cta">View Github <i
+                                class="fab fa-github"></i></a> <br>
+                        <a href="javascript:void(0)" class="cta expandDetails">
+                            More info<br>
+                            <div class="arrowDown">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="arrowUp">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="2400">
+                        <img src="images/portitem4.JPG" alt="">
+                    </div>
+                    <div class="portfolio-long">
+                        <div class="subheading">GOAL:</div>
+                        <p>
+                            Webpage for an imaginary Softpaws dog shelter in PHP. This project offered countless facepalms
+                            countered with "AHA!" moments because that's where I started learning the basics of HTML, CSS and PHP.
+                            Since animals very dear to my heart, it felt good to build something for those cute, faithful and grateful little beings.
+                        </p>
+                    </div>
+                </div>
+                <!-- /port4 -->
+
+<!--                <div class="portfolio-item">-->
+<!--                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">-->
+<!--                        <img src="images/portitem1.jpeg" alt="">-->
+<!--                    </div>-->
+<!--                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">-->
+<!--                        <h6>Web Development</h6>-->
+<!--                        <h1>Blog Website</h1>-->
+<!--                        <p>-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
+<!--                        </p>-->
+<!--                        <a href="#" class="cta">View Details</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="portfolio-item">-->
+<!--                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">-->
+<!--                        <h6>Web Design</h6>-->
+<!--                        <h1>Product Layout</h1>-->
+<!--                        <p>-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
+<!--                        </p>-->
+<!--                        <a href="#" class="cta">View Details</a>-->
+<!--                    </div>-->
+<!--                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">-->
+<!--                        <img src="images/portitem2.jpeg" alt="">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="portfolio-item">-->
+<!--                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">-->
+<!--                        <img src="images/portitem3.jpeg" alt="">-->
+<!--                    </div>-->
+<!--                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">-->
+<!--                        <h6>Web Design</h6>-->
+<!--                        <h1>Product Sketch</h1>-->
+<!--                        <p>-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
+<!--                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
+<!--                        </p>-->
+<!--                        <a href="#" class="cta">View Details</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="custom-shape-divider-top-1596800003">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Work Experience</h1>
+                    <h6>Past and current jobs</h6>
+                </div>
+                <div class="timeline" data-aos="fade-left" data-aos-delay="300">
+                    <ul>
+                        <li class="date" data-date="2019 - Present">
+                            <h1>METRIX Hungary Kft</h1>
+                            <p>
+                                Metrix Hungary Kft. is a young software development company based in Szeged Hungary. The portfolio of the company spreads from Facebook,
+                                mobile application development, to custom software programming. The employees have more than 10 years of experience in their fields,
+                                and have deep knowledge of design and development, even on enterprise levels.<br>
+                                Their top priority is to always stay up to date in the forever changing field of programming and technology, so they can offer the best solutions to their customers.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="custom-shape-divider-top-1596799792">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Education</h1>
+                    <h6>Universities and my qualifications</h6>
+                </div>
+                <div class="timeline" data-aos="fade-right" data-aos-delay="600">
+                    <ul>
+                        <li class="date" data-date="2017 - 2020">
+                            <h1>Bachelor of Science | Software Engineer</h1>
+                            <p>
+                                Thesis: Investigating data protection compliance of cloud services through a ChatBot application
+                            </p>
+                        </li>
+                        <li class="date" data-date="2014 - 2016">
+                            <h1>Master of Science | Astronomer</h1>
+                            <p>
+                                Thesis: Modeling high mass stars and analyzing their supernova explosions
+                            </p>
+                        </li>
+                        <li class="date" data-date="2010 - 2014">
+                            <h1>Bachelor of Science | Physicist</h1>
+                            <p>
+                                Thesis: Exomoons
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wave">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact</h1>
+                    <h6>Let's work and create something together!</h6>
+                </div>
+                <form action="https://formspree.io/elvira.erdei@gmail.com" method="POST" class="form" data-aos="fade-up" data-aos-delay="300">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Hello There!" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" name="message" id="message" cols="10" rows="10" placeholder="Enter Message..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="copyright">
+            <div class="up" id="up">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <p>&copy; 2020 Elvira Erdei</p>
+            <a href="mailto:elvira.erdei@gmail.com" class="number">elvira.erdei@gmail.com</a>
+        </footer>
+
+    </div> <!-- particles div -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+
+    <!-- end scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- aos -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- end scripts -->
+
+</body>
+</html>
